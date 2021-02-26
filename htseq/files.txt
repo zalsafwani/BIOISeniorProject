@@ -1,0 +1,9 @@
+sample	filename	condition
+p1normal	p1normal.htseq.counts	normal
+p2normal	p2normal.htseq.counts	normal
+p3normal	p3normal.htseq.counts	normal
+p4normal	p4normal.htseq.counts	normal
+p1tumor	p1tumor.htseq.counts	tumor
+p2tumor	p2tumor.htseq.counts	tumor
+p3tumor	p3tumor.htseq.counts	tumor
+p4tumor	p4tumor.htseq.counts	tumor
