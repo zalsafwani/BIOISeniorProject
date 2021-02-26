@@ -5,3 +5,5 @@ MicroRNAs and mRNAs differentially expressed analysis
 Download the following packages:
 
 ## Usage:
+### executes the first program
+python step1.py
