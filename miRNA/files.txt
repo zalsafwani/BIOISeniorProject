@@ -1,0 +1,9 @@
+sample	filename	condition
+p1normal	p1normal.mirbase21.mirnas.quantification.txt 	normal
+p2normal	p2normal.mirbase21.mirnas.quantification.txt 	normal
+p3normal	p3normal.mirbase21.mirnas.quantification.txt 	normal
+p4normal	p4normal.mirbase21.mirnas.quantification.txt 	normal
+p1tumor	p1tumor.mirbase21.mirnas.quantification.txt 	tumor
+p2tumor	p2tumor.mirbase21.mirnas.quantification.txt 	tumor
+p3tumor	p3tumor.mirbase21.mirnas.quantification.txt 	tumor
+p4tumor	p4tumor.mirbase21.mirnas.quantification.txt 	tumor
