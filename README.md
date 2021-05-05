@@ -32,7 +32,7 @@ More information about the session info are provided in session_info file
 ### Re-run and make similar result to the GO anlysis
 - After running the R script a file called DE_genes_network.txt, use this file to run GO in FunSet [FunSet website](http://funset.uno/). Then uplode the file and run, once the analysis is done download the csv result.
 - Use it in R by replacing line 200.
-- After running the code in R script for the GO analysis section, take the resulted file and copy the text into REVIGO [REVIGO website] (http://revigo.irb.hr/)
+- After running the code in R script for the GO analysis section, take the resulted file and copy the text into REVIGO [REVIGO website] (http://revigo.irb.hr/).
 - Change the orgnism to Homo sapiens, then run the analysis.
 
 ### Re-run and make similar result to the mRNA-miRNA network anlysis
@@ -51,6 +51,6 @@ More information about the session info are provided in session_info file
 
 ### Re-run and make similar result to the Somatic mutations anlysis
 - After running the R script a file called genes_somatic_mutation.txt copy those genes. 
-- Go to the cBioPortal [cBioPortal website] (https://www.cbioportal.org/), filter the studies to only the Colorectal Adenocarcinoma then hit Query By Gene. Then past the genes list into the box and submit the query. 
+- Go to the cBioPortal [cBioPortal website] (https://www.cbioportal.org/). Filter the studies to only the Colorectal Adenocarcinoma then hit Query By Gene. Then past the genes list into the box and submit the query. 
 - Click the Mutations tab to display the results.
 
