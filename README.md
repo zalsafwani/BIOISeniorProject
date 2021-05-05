@@ -36,9 +36,12 @@ More information about the session info are provided in session_info file
 - Change the orgnism to Homo sapiens, then run the analysis.
 
 ### Re-run and make similar result to the mRNA-miRNA network anlysis
-- After running the R script a file called 
+- After running the R script a file called combine_ppi_miRNA_target_genes.csv
+- Open Cytoscape then import a 
 
 
 ### Re-run and make similar result to the Somatic mutations anlysis
-
+- After running the R script a file called genes_somatic_mutation.txt copy those genes. 
+- Go to the cBioPortal [cBioPortal website] (https://www.cbioportal.org/), filter the studies to only the Colorectal Adenocarcinoma then hit Query By Gene. Then past the genes list into the box and submit the query. 
+- Click the Mutations tab to display the results.
 
