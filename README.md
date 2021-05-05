@@ -2,8 +2,8 @@
 MicroRNAs and mRNAs differentially expressed analysis 
 
 ## Installation Language and Requirements:
-- R as a language.
-- Download the following packages and libraries: packages("BiocManager"), library(DESeq2), and library(pathview).
+- R
+- Packages and libraries: packages("BiocManager"), library(DESeq2), and library(pathview)
 
 ## Usage:
 ### executes the program
