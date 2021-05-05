@@ -122,7 +122,7 @@ miRNA_regulatury$Edge_type <- "mRNA-miRNA"
 write.csv(miRNA_regulatury,file="miRNA_regulatury.csv", quote = F)
 
 # Get the table with miRNA to targeted gene for Homo sapiens and only keep miRNA column and the targeted gene
-miRNAs_list <- read.csv("miRTarBase_SE_WR.csv",)
+miRNAs_list <- read.csv("miRTarBase_SE_WR.csv")
 miRNAs_list_Human <- subset(miRNAs_list, miRNAs_list$Species..miRNA. == "Homo sapiens")
 miRNAs_targetGenes <- subset(miRNAs_list_Human, select = c(2,4))
 
@@ -143,10 +143,13 @@ write.csv(mirnas, file="miRNAs_targetGenes.csv", quote=F)
 # PPI file 
 ###########################################
 
+# The file too large so I couldn't upload to githup
 # Only select the column Official.Symbol.Interactor.A, Official.Symbol.Interactor.B
-ppi_data <- read.table("BIOGRID-ORGANISM-Homo_sapiens-4.3.196.tab3.txt", sep="\t", header = T, fill = TRUE)
-ppi <- subset(ppi_data, select = c(8,9))
-ppi$Edge_type <- "PPI"
+#ppi_data <- read.table("BIOGRID-ORGANISM-Homo_sapiens-4.3.196.tab3.txt", sep="\t", header = T, fill = TRUE)
+#ppi <- subset(ppi_data, select = c(8,9))
+#ppi$Edge_type <- "PPI"
+#write.csv(ppi, ppi, quote = F)
+ppi <- read.csv("ppi.csv")
 
 # Add the genes to PPI if the gene symbol was in DE mRNA or DE miRNA based on their targeted genes
 DE_miRNA <- data.frame(rownames(miRNA_regulatury))
@@ -230,3 +233,5 @@ chromosom_miRNA_down <- subset(NCBI_miRNA_list, select = c(1,4,5), NCBI_miRNA_li
 write.csv(chromosom_miRNA_down, "chromosom_miRNA_down.csv", quote = F)
 
 sessionInfo()
+
+
