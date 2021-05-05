@@ -1,5 +1,7 @@
 # BIOISeniorProject
-MicroRNAs and mRNAs differentially expressed analysis 
+MicroRNAs and mRNAs differentially expressed analysis using DESeq2
+
+The goal of this project is to run differential expression analysis for mRNAs and miRNAs data in Colorectal cancer (CRC) and see how miRNAs and their targeted genes could correlate with CRC. Patients with CRC have high mortality rates because they are diagnosed at an advanced stage. Identifying miRNAs–mRNAs that have a role in cellular pathways, such as apoptosis, could help identify markers for cancer, especially of CRC. Understanding expressions of miRNAs with their targeted mRNAs could help scientists find biomarkers that could help early diagnosis and better treatments of CRC with higher survival rates.
 
 ## Installation Language and Requirements:
 - R
