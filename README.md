@@ -23,3 +23,7 @@ MicroRNAs and mRNAs differentially expressed analysis
 - Fix the directory to the htseq folder (line 6)
 - Fix the directory to the folder that has all the files in step 1 (line 44)
 4. Run the mRNA-miRNA differential express analysis.R
+
+### session info
+More information about the session info are provided in session_info file
+
