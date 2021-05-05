@@ -1,11 +1,15 @@
 # BIOISeniorProject
 MicroRNAs and mRNAs differentially expressed analysis 
 
-## Installation Requirements:
-Download the following packages:
+## Installation Language and Requirements:
+- Use R as a language
+- Download the following packages and library:
+* packages("BiocManager")
+* library(DESeq2)
+* library(pathview)
 
 ## Usage:
-### executes the first program
+### executes the program
 1. Downlowd the folowing files:
 - htseq folder
 - miRNA folder
@@ -18,7 +22,7 @@ Download the following packages:
 - final_GO.csv
 - gene_result.txt
 2. Open the mRNA-miRNA differential express analysis.R and set your working directory to the place where the files were downloded.
-- Install "DESeq2" and "pathview" by uncommenting (line 7)
+- Install "DESeq2" and "pathview" by uncommenting (line 9)
 - Fix the directory to the htseq folder (line 6)
-- Fix the directory to the folder that has all the files in step 1 (line 42)
+- Fix the directory to the folder that has all the files in step 1 (line 44)
 4. Run the mRNA-miRNA differential express analysis.R
