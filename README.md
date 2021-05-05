@@ -29,3 +29,16 @@ The goal of this project is to run differential expression analysis for mRNAs an
 ### session info
 More information about the session info are provided in session_info file
 
+### Re-run and make similar result to the GO anlysis
+- After running the R script a file called DE_genes_network.txt, use this file to run GO in FunSet [FunSet website](http://funset.uno/). Then uplode the file and run, once the analysis is done download the csv result.
+- Use it in R by replacing line 200.
+- After running the code in R script for the GO analysis section, take the resulted file and copy the text into REVIGO [REVIGO website] (http://revigo.irb.hr)
+- Change the orgnism to Homo sapiens, then run the analysis.
+
+### Re-run and make similar result to the mRNA-miRNA network anlysis
+- After running the R script a file called 
+
+
+### Re-run and make similar result to the Somatic mutations anlysis
+
+
