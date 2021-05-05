@@ -38,13 +38,13 @@ More information about the session info are provided in session_info file
 ### Re-run and make similar result to the mRNA-miRNA network anlysis
 - After running the R script a file called combine_ppi_miRNA_target_genes.csv
 - Open Cytoscape File -> Import -> Network from File then choose the combine_ppi_miRNA_target_genes.csv
--- Make column 1 as Not Imported, column 2 as Source Node, column 3 as Target Node, column 4 as Interaction Type, and column 5 as Source Node Attribute.
--- Once the network created, File -> Import -> Table from File mRNA_regulatury.csv and make column 1 as Not Imported and column 3 (geneName) as a Key.
--- File -> Import -> Table from File miRNA_regulatury.csv
--- Choose the Style Node tab, change the Fill Color by selecting the Column to log2FoldChange and Mapping Type to Continuous Mapping.
--- Change the Shape by selecting the Column to type and Mapping Type to Discrete Mapping and for the mRNA choose Ellipse and for miRNA choose Rectangle.
--- Choose the Style Edge tab, change Stroke Color (Unselected) Column to interaction and Mapping Type to Discrete Mapping and for the PPI pick a green and for the mRNA-miRNA choose black. 
--- Then choose Layout Group Attributies Layout -> Regulatury, then delate all of the nodes in the network that don't have Regulatury (blue nodes).
+- Make column 1 as Not Imported, column 2 as Source Node, column 3 as Target Node, column 4 as Interaction Type, and column 5 as Source Node Attribute.
+- Once the network created, File -> Import -> Table from File mRNA_regulatury.csv and make column 1 as Not Imported and column 3 (geneName) as a Key.
+- File -> Import -> Table from File miRNA_regulatury.csv
+- Choose the Style Node tab, change the Fill Color by selecting the Column to log2FoldChange and Mapping Type to Continuous Mapping.
+- Change the Shape by selecting the Column to type and Mapping Type to Discrete Mapping and for the mRNA choose Ellipse and for miRNA choose Rectangle.
+- Choose the Style Edge tab, change Stroke Color (Unselected) Column to interaction and Mapping Type to Discrete Mapping and for the PPI pick a green and for the mRNA-miRNA choose black. 
+- Then choose Layout Group Attributies Layout -> Regulatury, then delate all of the nodes in the network that don't have Regulatury (blue nodes).
 
 
 ### Re-run and make similar result to the Somatic mutations anlysis
