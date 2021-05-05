@@ -18,4 +18,7 @@ Download the following packages:
 - final_GO.csv
 - gene_result.txt
 2. Open the mRNA-miRNA differential express analysis.R and set your working directory to the place where the files were downloded.
-3. Run the mRNA-miRNA differential express analysis.R
+- Install "DESeq2" and "pathview" by uncommenting (line 7)
+- Fix the directory to the htseq folder (line 6)
+- Fix the directory to the folder that has all the files in step 1 (line 42)
+4. Run the mRNA-miRNA differential express analysis.R
