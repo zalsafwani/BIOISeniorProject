@@ -4,6 +4,8 @@
 
 # Set the directory, install and load the necessary library.
 directory <- "~/Documents/htseq"
+if (!requireNamespace("BiocManager", quietlt = TRUE))
+  install.packages("BiocManager")
 #BiocManager::install(c("DESeq2", "pathview"))
 library(DESeq2)
 library(pathview)
