@@ -46,7 +46,8 @@ More information about the session info are provided in session_info file
 - Choose the Style Edge tab, change Stroke Color (Unselected) Column to interaction and Mapping Type to Discrete Mapping and for the PPI pick a green and for the mRNA-miRNA choose black. 
 - Then choose Layout Group Attributies Layout -> Regulatury, then delate all of the nodes in the network that don't have Regulatury (blue nodes).
 - To show the nodes info View -> Show Graphical Details.
-
+- If we want to look at nodes with degree of connectivity > 100, Select tab then add Degree filter
+- If we want to choose a node and look at the connected nodes, select the node from the Table Panel by right click then Select nodes from selectd rows. Select -> Nodes -> First Neighbors of Selected Nodes -> Undirected. Select -> Hid Unselected Nodes. Select -> Edges -> Show All Edges. To go back to the orginal network Select -> Show All Nodes and Edges
 
 ### Re-run and make similar result to the Somatic mutations anlysis
 - After running the R script a file called genes_somatic_mutation.txt copy those genes. 
