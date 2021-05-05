@@ -13,5 +13,9 @@ Download the following packages:
 - Homo_sapiens.GRCh38.101.ensg2gene_name.txt
 - miRNA_count_matrix.txt
 - miRTarBase_SE_WR.csv
+- ppi.csv
+- networkResultFixed.csv
+- final_GO.csv
+- gene_result.txt
 2. Open the mRNA-miRNA differential express analysis.R and set your working directory to the place where the files were downloded.
 3. Run the mRNA-miRNA differential express analysis.R
